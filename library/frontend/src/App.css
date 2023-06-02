@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: justify;
 }
 
 .App-logo {
@@ -102,9 +102,14 @@
     padding-left: 50px;
     margin: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: justify;
 }
+
+table {
+    margin-bottom: 50px;
+}
+
 .main-text table th {
     padding-right: 100px;
 }

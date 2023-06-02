@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c93bd6-d4fb-43bf-8386-8e3390a938ac" name="Changes" comment="lesson_3_reload_task_1">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/django_library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/frontend/src/components/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/filters/ProjectFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/todo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/authors/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/authors/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/authors/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/authors/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/authors/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/authors/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/frontend/src/components/Author.js" beforeDir="false" afterPath="$PROJECT_DIR$/library/frontend/src/components/Author.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/library/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/todo/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/todo/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +52,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/lesson_3" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -234,7 +266,7 @@
       <workItem from="1685637441906" duration="6721000" />
       <workItem from="1685646188493" duration="7240000" />
       <workItem from="1685683165987" duration="2877000" />
-      <workItem from="1685724075220" duration="2944000" />
+      <workItem from="1685724075220" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="lesson_3_reload_task_1">
       <created>1684007521919</created>
