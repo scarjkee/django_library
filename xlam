@@ -1,0 +1,93 @@
+<div className="wrapper">
+                <header className="header">
+                    <div className="navbar-wrapp">
+                        <nav className="navbar">
+                            <div className="container">
+                                <a href="https://nodejsdev.ru/" className="main-navbar">NodeJs</a>
+                                <ul className="navbar-menu">
+                                    <li><a href="">Главная</a></li>
+                                    <li><a href="#">User</a></li>
+                                    <li><a href="#">#</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <main className="main">
+                    <div className="main-text">
+                        <AuthorList authors={this.state.authors} />
+                    </div>
+                </main>
+                <footer className="main-foot">
+                    <div className="footer">
+                        <div className="container">
+                            <div className="footer_top">
+                                <h3 className="taxt mainh3">Django REACT Frame-work</h3>
+                                <p className="text text_footer"></p>
+                                <div className="botton_footer">
+                                    <a href="#" className="top_botton_footer"></a>
+                                </div>
+                            </div>
+                            <div className="reserved">
+                                    <p className="text reserved__text">2023 All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+<AuthorList authors={this.state.authors} />
+
+
+
+    -----------------------------------------------------------------------------------------------------------------
+
+
+
+    <BrowserRouter>
+                <div className="wrapper">
+                    <header className="header">
+                        <div className="navbar-wrapp">
+                            <nav className="navbar">
+                                <div className="container">
+                                    <a href="https://nodejsdev.ru/" className="main-navbar">NodeJs</a>
+                                    <ul className="navbar-menu">
+                                        <li><Link to="/">Главная</Link></li>
+                                        <li><Link to="/users">User</Link></li>
+                                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                        <li><Link to="/todo">Todo</Link></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </header>
+                    <main className="main">
+                        <div className="main-text">
+                            <switch>
+                                <Route exact path='/todo' component={() => <TodoList items={this.state.todos} />} />
+                                <Route exact path='/users' component={() => <AuthorList items={this.state.authors} />} />
+                            </switch>
+                        </div>
+                    </main>
+                    <footer className="main-foot">
+                        <div className="footer">
+                            <div className="container">
+                                <div className="footer_top">
+                                    <h3 className="taxt mainh3">Django REACT Frame-work</h3>
+                                        <p className="text text_footer"></p>
+                                    <div className="botton_footer">
+                                    </div>
+                                </div>
+                                <div className="reserved">
+                                    <p className="text reserved__text">2023 All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </BrowserRouter>
