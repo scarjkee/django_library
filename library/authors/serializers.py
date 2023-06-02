@@ -1,9 +1,11 @@
 from django.db import models
 from rest_framework.serializers import ModelSerializer, HyperlinkedModelSerializer
-from .models import Author, Biography, Book, Artical
+from .models import Author, Artical, Biography, Book
 from rest_framework import serializers
 
+
 class AuthorModelSerializer(HyperlinkedModelSerializer):
+
     class Meta:
         model = Author
         fields = '__all__'
@@ -11,6 +13,7 @@ class AuthorModelSerializer(HyperlinkedModelSerializer):
 
 class BiographyModelSerializer(HyperlinkedModelSerializer):
     author = AuthorModelSerializer()
+
     class Meta:
         model = Biography
         fields = '__all__'
@@ -18,6 +21,7 @@ class BiographyModelSerializer(HyperlinkedModelSerializer):
 
 class BookModelSerializer(HyperlinkedModelSerializer):
     author = AuthorModelSerializer(many=True)
+
     class Meta:
         model = Book
         fields = '__all__'
@@ -25,10 +29,10 @@ class BookModelSerializer(HyperlinkedModelSerializer):
 
 class ArticalModelSerializer(HyperlinkedModelSerializer):
     author = AuthorModelSerializer()
+
     class Meta:
         model = Artical
         fields = '__all__'
-
 
 # class Autor:
 #     def __init__(self, name, year):

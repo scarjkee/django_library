@@ -1,0 +1,6 @@
+/library/db.sqlite3
+../.idea/
+../identifier.sqlite
+#node_models
+library/frontend/node_modules
+/xlam

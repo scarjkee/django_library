@@ -12,6 +12,7 @@ class Author(models.Model):
     def __str__(self):
         return f'Имя автора: {self.first_name}'
 
+
 class Biography(models.Model):
     text = models.TextField()
     author = models.OneToOneField(Author, on_delete=models.CASCADE)

@@ -1,10 +1,20 @@
 from django.shortcuts import render
+from rest_framework.renderers import JSONRenderer
+from rest_framework import mixins, viewsets
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.generics import CreateAPIView, RetrieveAPIView
 from .models import Author, Biography, Book, Artical
 from .serializers import AuthorModelSerializer, BookModelSerializer, BiographyModelSerializer, ArticalModelSerializer
 
 
-class AuthorModelViewSet(ModelViewSet):
+class AuthorModelViewSet(mixins.CreateModelMixin, mixins.RetrieveModelMixin, mixins.ListModelMixin, mixins.UpdateModelMixin, viewsets.GenericViewSet):
+    # renderer_classes = [JSONRenderer]
+    queryset = Author.objects.all()
+    serializer_class = AuthorModelSerializer
+
+
+class AuthorRetrieveAPIView(RetrieveAPIView):
+    # renderer_classes = [JSONRenderer]
     queryset = Author.objects.all()
     serializer_class = AuthorModelSerializer
 
